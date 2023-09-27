@@ -1,0 +1,111 @@
+body{
+  background-image: url(bg.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin-top: 25px;
+}
+
+.glass-box{
+    width: 830px;
+    height: 530px;
+    background: radial-gradient(rgba(45, 85, 255));
+    box-shadow: 0 0 30px rgba(rgba(0, 26, 255));
+    border-radius: 20px;
+    backdrop-filter: blur(3px);
+i{
+    position: relative;
+    margin: left;
+     
+    }
+} 
+nav{
+    width: 60;
+    background-color: dodgerblue;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+
+}
+
+nav ul li{
+     list-style: none;
+     display: inline-block;
+     margin: 0 20px;
+
+}
+
+nav ul li a{
+ text-decoration: none;
+ color: #fff 
+
+
+}
+nav ul li a:hover{
+    color: red;
+    transition: 0.3s ease;
+
+
+}
+body {
+    background-image: url(/ohtos/bg.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    margin-top: 25px;
+  }
+  
+  .glass-box {
+    width: 830px;
+    height: 530px;
+    background: radial-gradient(rgba(45, 85, 255));
+    box-shadow: 0 0 30px rgba(rgba(0, 26, 255));
+    border-radius: 20px;
+    backdrop-filter: blur(3px);
+    & i {
+      position: relative;
+      margin: left;
+    }
+  }
+  nav {
+    width: 60;
+    background-color: dodgerblue;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+  
+  nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  nav ul li a:hover {
+    color: red;
+    transition: 0.3s ease;
+  }
+  
+  form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+  }
+  
